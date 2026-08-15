@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "VIAJANDO_PELO_MUNDO_MOBILE",
+    "slug": "VIAJANDO_PELO_MUNDO_MOBILE",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "viajandopelomundomobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {},
+    "android": {
+      "package": "com.thiagoacchagas.viajandopelomundo",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#2563EB",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app precisa acessar suas fotos para você anexar uma imagem à viagem.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "88ac6add-362e-4a1d-9d02-e78a87968f14"
+      }
+    },
+    "owner": "thiagoacchagas"
+  }
+}

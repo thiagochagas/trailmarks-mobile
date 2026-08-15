@@ -1,0 +1,2252 @@
+[
+  {
+    "cca2": "AF",
+    "ccn3": "004",
+    "nomePt": "Afeganistão",
+    "nomeEn": "Afghanistan",
+    "continente": "Asia",
+    "latitude": 33,
+    "longitude": 65
+  },
+  {
+    "cca2": "ZA",
+    "ccn3": "710",
+    "nomePt": "África do Sul",
+    "nomeEn": "South Africa",
+    "continente": "Africa",
+    "latitude": -29,
+    "longitude": 24
+  },
+  {
+    "cca2": "AX",
+    "ccn3": "248",
+    "nomePt": "Alândia",
+    "nomeEn": "Åland Islands",
+    "continente": "Europe",
+    "latitude": 60.116667,
+    "longitude": 19.9
+  },
+  {
+    "cca2": "AL",
+    "ccn3": "008",
+    "nomePt": "Albânia",
+    "nomeEn": "Albania",
+    "continente": "Europe",
+    "latitude": 41,
+    "longitude": 20
+  },
+  {
+    "cca2": "DE",
+    "ccn3": "276",
+    "nomePt": "Alemanha",
+    "nomeEn": "Germany",
+    "continente": "Europe",
+    "latitude": 51,
+    "longitude": 9
+  },
+  {
+    "cca2": "AD",
+    "ccn3": "020",
+    "nomePt": "Andorra",
+    "nomeEn": "Andorra",
+    "continente": "Europe",
+    "latitude": 42.5,
+    "longitude": 1.5
+  },
+  {
+    "cca2": "AO",
+    "ccn3": "024",
+    "nomePt": "Angola",
+    "nomeEn": "Angola",
+    "continente": "Africa",
+    "latitude": -12.5,
+    "longitude": 18.5
+  },
+  {
+    "cca2": "AI",
+    "ccn3": "660",
+    "nomePt": "Anguilla",
+    "nomeEn": "Anguilla",
+    "continente": "Americas",
+    "latitude": 18.25,
+    "longitude": -63.16666666
+  },
+  {
+    "cca2": "AQ",
+    "ccn3": "010",
+    "nomePt": "Antártida",
+    "nomeEn": "Antarctica",
+    "continente": "Antarctic",
+    "latitude": -90,
+    "longitude": 0
+  },
+  {
+    "cca2": "AG",
+    "ccn3": "028",
+    "nomePt": "Antígua e Barbuda",
+    "nomeEn": "Antigua and Barbuda",
+    "continente": "Americas",
+    "latitude": 17.05,
+    "longitude": -61.8
+  },
+  {
+    "cca2": "SA",
+    "ccn3": "682",
+    "nomePt": "Arábia Saudita",
+    "nomeEn": "Saudi Arabia",
+    "continente": "Asia",
+    "latitude": 25,
+    "longitude": 45
+  },
+  {
+    "cca2": "DZ",
+    "ccn3": "012",
+    "nomePt": "Argélia",
+    "nomeEn": "Algeria",
+    "continente": "Africa",
+    "latitude": 28,
+    "longitude": 3
+  },
+  {
+    "cca2": "AR",
+    "ccn3": "032",
+    "nomePt": "Argentina",
+    "nomeEn": "Argentina",
+    "continente": "Americas",
+    "latitude": -34,
+    "longitude": -64
+  },
+  {
+    "cca2": "AM",
+    "ccn3": "051",
+    "nomePt": "Arménia",
+    "nomeEn": "Armenia",
+    "continente": "Asia",
+    "latitude": 40,
+    "longitude": 45
+  },
+  {
+    "cca2": "AW",
+    "ccn3": "533",
+    "nomePt": "Aruba",
+    "nomeEn": "Aruba",
+    "continente": "Americas",
+    "latitude": 12.5,
+    "longitude": -69.96666666
+  },
+  {
+    "cca2": "AU",
+    "ccn3": "036",
+    "nomePt": "Austrália",
+    "nomeEn": "Australia",
+    "continente": "Oceania",
+    "latitude": -27,
+    "longitude": 133
+  },
+  {
+    "cca2": "AT",
+    "ccn3": "040",
+    "nomePt": "Áustria",
+    "nomeEn": "Austria",
+    "continente": "Europe",
+    "latitude": 47.33333333,
+    "longitude": 13.33333333
+  },
+  {
+    "cca2": "AZ",
+    "ccn3": "031",
+    "nomePt": "Azerbeijão",
+    "nomeEn": "Azerbaijan",
+    "continente": "Asia",
+    "latitude": 40.5,
+    "longitude": 47.5
+  },
+  {
+    "cca2": "BS",
+    "ccn3": "044",
+    "nomePt": "Bahamas",
+    "nomeEn": "Bahamas",
+    "continente": "Americas",
+    "latitude": 24.25,
+    "longitude": -76
+  },
+  {
+    "cca2": "BH",
+    "ccn3": "048",
+    "nomePt": "Bahrein",
+    "nomeEn": "Bahrain",
+    "continente": "Asia",
+    "latitude": 26,
+    "longitude": 50.55
+  },
+  {
+    "cca2": "BD",
+    "ccn3": "050",
+    "nomePt": "Bangladesh",
+    "nomeEn": "Bangladesh",
+    "continente": "Asia",
+    "latitude": 24,
+    "longitude": 90
+  },
+  {
+    "cca2": "BB",
+    "ccn3": "052",
+    "nomePt": "Barbados",
+    "nomeEn": "Barbados",
+    "continente": "Americas",
+    "latitude": 13.16666666,
+    "longitude": -59.53333333
+  },
+  {
+    "cca2": "BE",
+    "ccn3": "056",
+    "nomePt": "Bélgica",
+    "nomeEn": "Belgium",
+    "continente": "Europe",
+    "latitude": 50.83333333,
+    "longitude": 4
+  },
+  {
+    "cca2": "BZ",
+    "ccn3": "084",
+    "nomePt": "Belize",
+    "nomeEn": "Belize",
+    "continente": "Americas",
+    "latitude": 17.25,
+    "longitude": -88.75
+  },
+  {
+    "cca2": "BJ",
+    "ccn3": "204",
+    "nomePt": "Benin",
+    "nomeEn": "Benin",
+    "continente": "Africa",
+    "latitude": 9.5,
+    "longitude": 2.25
+  },
+  {
+    "cca2": "BM",
+    "ccn3": "060",
+    "nomePt": "Bermudas",
+    "nomeEn": "Bermuda",
+    "continente": "Americas",
+    "latitude": 32.33333333,
+    "longitude": -64.75
+  },
+  {
+    "cca2": "BY",
+    "ccn3": "112",
+    "nomePt": "Bielorússia",
+    "nomeEn": "Belarus",
+    "continente": "Europe",
+    "latitude": 53,
+    "longitude": 28
+  },
+  {
+    "cca2": "BO",
+    "ccn3": "068",
+    "nomePt": "Bolívia",
+    "nomeEn": "Bolivia",
+    "continente": "Americas",
+    "latitude": -17,
+    "longitude": -65
+  },
+  {
+    "cca2": "BA",
+    "ccn3": "070",
+    "nomePt": "Bósnia e Herzegovina",
+    "nomeEn": "Bosnia and Herzegovina",
+    "continente": "Europe",
+    "latitude": 44,
+    "longitude": 18
+  },
+  {
+    "cca2": "BW",
+    "ccn3": "072",
+    "nomePt": "Botswana",
+    "nomeEn": "Botswana",
+    "continente": "Africa",
+    "latitude": -22,
+    "longitude": 24
+  },
+  {
+    "cca2": "BR",
+    "ccn3": "076",
+    "nomePt": "Brasil",
+    "nomeEn": "Brazil",
+    "continente": "Americas",
+    "latitude": -10,
+    "longitude": -55
+  },
+  {
+    "cca2": "BN",
+    "ccn3": "096",
+    "nomePt": "Brunei",
+    "nomeEn": "Brunei",
+    "continente": "Asia",
+    "latitude": 4.5,
+    "longitude": 114.66666666
+  },
+  {
+    "cca2": "BG",
+    "ccn3": "100",
+    "nomePt": "Bulgária",
+    "nomeEn": "Bulgaria",
+    "continente": "Europe",
+    "latitude": 43,
+    "longitude": 25
+  },
+  {
+    "cca2": "BF",
+    "ccn3": "854",
+    "nomePt": "Burkina Faso",
+    "nomeEn": "Burkina Faso",
+    "continente": "Africa",
+    "latitude": 13,
+    "longitude": -2
+  },
+  {
+    "cca2": "BI",
+    "ccn3": "108",
+    "nomePt": "Burundi",
+    "nomeEn": "Burundi",
+    "continente": "Africa",
+    "latitude": -3.5,
+    "longitude": 30
+  },
+  {
+    "cca2": "BT",
+    "ccn3": "064",
+    "nomePt": "Butão",
+    "nomeEn": "Bhutan",
+    "continente": "Asia",
+    "latitude": 27.5,
+    "longitude": 90.5
+  },
+  {
+    "cca2": "CV",
+    "ccn3": "132",
+    "nomePt": "Cabo Verde",
+    "nomeEn": "Cape Verde",
+    "continente": "Africa",
+    "latitude": 16,
+    "longitude": -24
+  },
+  {
+    "cca2": "CM",
+    "ccn3": "120",
+    "nomePt": "Camarões",
+    "nomeEn": "Cameroon",
+    "continente": "Africa",
+    "latitude": 6,
+    "longitude": 12
+  },
+  {
+    "cca2": "KH",
+    "ccn3": "116",
+    "nomePt": "Camboja",
+    "nomeEn": "Cambodia",
+    "continente": "Asia",
+    "latitude": 13,
+    "longitude": 105
+  },
+  {
+    "cca2": "CA",
+    "ccn3": "124",
+    "nomePt": "Canadá",
+    "nomeEn": "Canada",
+    "continente": "Americas",
+    "latitude": 60,
+    "longitude": -95
+  },
+  {
+    "cca2": "QA",
+    "ccn3": "634",
+    "nomePt": "Catar",
+    "nomeEn": "Qatar",
+    "continente": "Asia",
+    "latitude": 25.5,
+    "longitude": 51.25
+  },
+  {
+    "cca2": "KZ",
+    "ccn3": "398",
+    "nomePt": "Cazaquistão",
+    "nomeEn": "Kazakhstan",
+    "continente": "Asia",
+    "latitude": 48,
+    "longitude": 68
+  },
+  {
+    "cca2": "TD",
+    "ccn3": "148",
+    "nomePt": "Chade",
+    "nomeEn": "Chad",
+    "continente": "Africa",
+    "latitude": 15,
+    "longitude": 19
+  },
+  {
+    "cca2": "CZ",
+    "ccn3": "203",
+    "nomePt": "Chéquia",
+    "nomeEn": "Czechia",
+    "continente": "Europe",
+    "latitude": 49.75,
+    "longitude": 15.5
+  },
+  {
+    "cca2": "CL",
+    "ccn3": "152",
+    "nomePt": "Chile",
+    "nomeEn": "Chile",
+    "continente": "Americas",
+    "latitude": -30,
+    "longitude": -71
+  },
+  {
+    "cca2": "CN",
+    "ccn3": "156",
+    "nomePt": "China",
+    "nomeEn": "China",
+    "continente": "Asia",
+    "latitude": 35,
+    "longitude": 105
+  },
+  {
+    "cca2": "CY",
+    "ccn3": "196",
+    "nomePt": "Chipre",
+    "nomeEn": "Cyprus",
+    "continente": "Europe",
+    "latitude": 35,
+    "longitude": 33
+  },
+  {
+    "cca2": "VA",
+    "ccn3": "336",
+    "nomePt": "Cidade do Vaticano",
+    "nomeEn": "Vatican City",
+    "continente": "Europe",
+    "latitude": 41.9,
+    "longitude": 12.45
+  },
+  {
+    "cca2": "CO",
+    "ccn3": "170",
+    "nomePt": "Colômbia",
+    "nomeEn": "Colombia",
+    "continente": "Americas",
+    "latitude": 4,
+    "longitude": -72
+  },
+  {
+    "cca2": "KM",
+    "ccn3": "174",
+    "nomePt": "Comores",
+    "nomeEn": "Comoros",
+    "continente": "Africa",
+    "latitude": -12.16666666,
+    "longitude": 44.25
+  },
+  {
+    "cca2": "CG",
+    "ccn3": "178",
+    "nomePt": "Congo",
+    "nomeEn": "Republic of the Congo",
+    "continente": "Africa",
+    "latitude": -1,
+    "longitude": 15
+  },
+  {
+    "cca2": "KP",
+    "ccn3": "408",
+    "nomePt": "Coreia do Norte",
+    "nomeEn": "North Korea",
+    "continente": "Asia",
+    "latitude": 40,
+    "longitude": 127
+  },
+  {
+    "cca2": "KR",
+    "ccn3": "410",
+    "nomePt": "Coreia do Sul",
+    "nomeEn": "South Korea",
+    "continente": "Asia",
+    "latitude": 37,
+    "longitude": 127.5
+  },
+  {
+    "cca2": "CI",
+    "ccn3": "384",
+    "nomePt": "Costa do Marfim",
+    "nomeEn": "Ivory Coast",
+    "continente": "Africa",
+    "latitude": 8,
+    "longitude": -5
+  },
+  {
+    "cca2": "CR",
+    "ccn3": "188",
+    "nomePt": "Costa Rica",
+    "nomeEn": "Costa Rica",
+    "continente": "Americas",
+    "latitude": 10,
+    "longitude": -84
+  },
+  {
+    "cca2": "HR",
+    "ccn3": "191",
+    "nomePt": "Croácia",
+    "nomeEn": "Croatia",
+    "continente": "Europe",
+    "latitude": 45.16666666,
+    "longitude": 15.5
+  },
+  {
+    "cca2": "CU",
+    "ccn3": "192",
+    "nomePt": "Cuba",
+    "nomeEn": "Cuba",
+    "continente": "Americas",
+    "latitude": 21.5,
+    "longitude": -80
+  },
+  {
+    "cca2": "DK",
+    "ccn3": "208",
+    "nomePt": "Dinamarca",
+    "nomeEn": "Denmark",
+    "continente": "Europe",
+    "latitude": 56,
+    "longitude": 10
+  },
+  {
+    "cca2": "DJ",
+    "ccn3": "262",
+    "nomePt": "Djibouti",
+    "nomeEn": "Djibouti",
+    "continente": "Africa",
+    "latitude": 11.5,
+    "longitude": 43
+  },
+  {
+    "cca2": "DM",
+    "ccn3": "212",
+    "nomePt": "Dominica",
+    "nomeEn": "Dominica",
+    "continente": "Americas",
+    "latitude": 15.41666666,
+    "longitude": -61.33333333
+  },
+  {
+    "cca2": "EG",
+    "ccn3": "818",
+    "nomePt": "Egito",
+    "nomeEn": "Egypt",
+    "continente": "Africa",
+    "latitude": 27,
+    "longitude": 30
+  },
+  {
+    "cca2": "SV",
+    "ccn3": "222",
+    "nomePt": "El Salvador",
+    "nomeEn": "El Salvador",
+    "continente": "Americas",
+    "latitude": 13.83333333,
+    "longitude": -88.91666666
+  },
+  {
+    "cca2": "AE",
+    "ccn3": "784",
+    "nomePt": "Emirados Árabes Unidos",
+    "nomeEn": "United Arab Emirates",
+    "continente": "Asia",
+    "latitude": 24,
+    "longitude": 54
+  },
+  {
+    "cca2": "EC",
+    "ccn3": "218",
+    "nomePt": "Equador",
+    "nomeEn": "Ecuador",
+    "continente": "Americas",
+    "latitude": -2,
+    "longitude": -77.5
+  },
+  {
+    "cca2": "ER",
+    "ccn3": "232",
+    "nomePt": "Eritreia",
+    "nomeEn": "Eritrea",
+    "continente": "Africa",
+    "latitude": 15,
+    "longitude": 39
+  },
+  {
+    "cca2": "SK",
+    "ccn3": "703",
+    "nomePt": "Eslováquia",
+    "nomeEn": "Slovakia",
+    "continente": "Europe",
+    "latitude": 48.66666666,
+    "longitude": 19.5
+  },
+  {
+    "cca2": "SI",
+    "ccn3": "705",
+    "nomePt": "Eslovénia",
+    "nomeEn": "Slovenia",
+    "continente": "Europe",
+    "latitude": 46.11666666,
+    "longitude": 14.81666666
+  },
+  {
+    "cca2": "ES",
+    "ccn3": "724",
+    "nomePt": "Espanha",
+    "nomeEn": "Spain",
+    "continente": "Europe",
+    "latitude": 40,
+    "longitude": -4
+  },
+  {
+    "cca2": "US",
+    "ccn3": "840",
+    "nomePt": "Estados Unidos",
+    "nomeEn": "United States",
+    "continente": "Americas",
+    "latitude": 38,
+    "longitude": -97
+  },
+  {
+    "cca2": "EE",
+    "ccn3": "233",
+    "nomePt": "Estónia",
+    "nomeEn": "Estonia",
+    "continente": "Europe",
+    "latitude": 59,
+    "longitude": 26
+  },
+  {
+    "cca2": "ET",
+    "ccn3": "231",
+    "nomePt": "Etiópia",
+    "nomeEn": "Ethiopia",
+    "continente": "Africa",
+    "latitude": 8,
+    "longitude": 38
+  },
+  {
+    "cca2": "FJ",
+    "ccn3": "242",
+    "nomePt": "Fiji",
+    "nomeEn": "Fiji",
+    "continente": "Oceania",
+    "latitude": -18,
+    "longitude": 175
+  },
+  {
+    "cca2": "PH",
+    "ccn3": "608",
+    "nomePt": "Filipinas",
+    "nomeEn": "Philippines",
+    "continente": "Asia",
+    "latitude": 13,
+    "longitude": 122
+  },
+  {
+    "cca2": "FI",
+    "ccn3": "246",
+    "nomePt": "Finlândia",
+    "nomeEn": "Finland",
+    "continente": "Europe",
+    "latitude": 64,
+    "longitude": 26
+  },
+  {
+    "cca2": "FR",
+    "ccn3": "250",
+    "nomePt": "França",
+    "nomeEn": "France",
+    "continente": "Europe",
+    "latitude": 46,
+    "longitude": 2
+  },
+  {
+    "cca2": "GA",
+    "ccn3": "266",
+    "nomePt": "Gabão",
+    "nomeEn": "Gabon",
+    "continente": "Africa",
+    "latitude": -1,
+    "longitude": 11.75
+  },
+  {
+    "cca2": "GM",
+    "ccn3": "270",
+    "nomePt": "Gâmbia",
+    "nomeEn": "Gambia",
+    "continente": "Africa",
+    "latitude": 13.46666666,
+    "longitude": -16.56666666
+  },
+  {
+    "cca2": "GH",
+    "ccn3": "288",
+    "nomePt": "Gana",
+    "nomeEn": "Ghana",
+    "continente": "Africa",
+    "latitude": 8,
+    "longitude": -2
+  },
+  {
+    "cca2": "GE",
+    "ccn3": "268",
+    "nomePt": "Geórgia",
+    "nomeEn": "Georgia",
+    "continente": "Asia",
+    "latitude": 42,
+    "longitude": 43.5
+  },
+  {
+    "cca2": "GI",
+    "ccn3": "292",
+    "nomePt": "Gibraltar",
+    "nomeEn": "Gibraltar",
+    "continente": "Europe",
+    "latitude": 36.13333333,
+    "longitude": -5.35
+  },
+  {
+    "cca2": "GD",
+    "ccn3": "308",
+    "nomePt": "Granada",
+    "nomeEn": "Grenada",
+    "continente": "Americas",
+    "latitude": 12.11666666,
+    "longitude": -61.66666666
+  },
+  {
+    "cca2": "GR",
+    "ccn3": "300",
+    "nomePt": "Grécia",
+    "nomeEn": "Greece",
+    "continente": "Europe",
+    "latitude": 39,
+    "longitude": 22
+  },
+  {
+    "cca2": "GL",
+    "ccn3": "304",
+    "nomePt": "Gronelândia",
+    "nomeEn": "Greenland",
+    "continente": "Americas",
+    "latitude": 72,
+    "longitude": -40
+  },
+  {
+    "cca2": "GP",
+    "ccn3": "312",
+    "nomePt": "Guadalupe",
+    "nomeEn": "Guadeloupe",
+    "continente": "Americas",
+    "latitude": 16.25,
+    "longitude": -61.583333
+  },
+  {
+    "cca2": "GU",
+    "ccn3": "316",
+    "nomePt": "Guam",
+    "nomeEn": "Guam",
+    "continente": "Oceania",
+    "latitude": 13.46666666,
+    "longitude": 144.78333333
+  },
+  {
+    "cca2": "GT",
+    "ccn3": "320",
+    "nomePt": "Guatemala",
+    "nomeEn": "Guatemala",
+    "continente": "Americas",
+    "latitude": 15.5,
+    "longitude": -90.25
+  },
+  {
+    "cca2": "GG",
+    "ccn3": "831",
+    "nomePt": "Guernsey",
+    "nomeEn": "Guernsey",
+    "continente": "Europe",
+    "latitude": 49.46666666,
+    "longitude": -2.58333333
+  },
+  {
+    "cca2": "GY",
+    "ccn3": "328",
+    "nomePt": "Guiana",
+    "nomeEn": "Guyana",
+    "continente": "Americas",
+    "latitude": 5,
+    "longitude": -59
+  },
+  {
+    "cca2": "GF",
+    "ccn3": "254",
+    "nomePt": "Guiana Francesa",
+    "nomeEn": "French Guiana",
+    "continente": "Americas",
+    "latitude": 4,
+    "longitude": -53
+  },
+  {
+    "cca2": "GN",
+    "ccn3": "324",
+    "nomePt": "Guiné",
+    "nomeEn": "Guinea",
+    "continente": "Africa",
+    "latitude": 11,
+    "longitude": -10
+  },
+  {
+    "cca2": "GQ",
+    "ccn3": "226",
+    "nomePt": "Guiné Equatorial",
+    "nomeEn": "Equatorial Guinea",
+    "continente": "Africa",
+    "latitude": 2,
+    "longitude": 10
+  },
+  {
+    "cca2": "GW",
+    "ccn3": "624",
+    "nomePt": "Guiné-Bissau",
+    "nomeEn": "Guinea-Bissau",
+    "continente": "Africa",
+    "latitude": 12,
+    "longitude": -15
+  },
+  {
+    "cca2": "HT",
+    "ccn3": "332",
+    "nomePt": "Haiti",
+    "nomeEn": "Haiti",
+    "continente": "Americas",
+    "latitude": 19,
+    "longitude": -72.41666666
+  },
+  {
+    "cca2": "NL",
+    "ccn3": "528",
+    "nomePt": "Holanda",
+    "nomeEn": "Netherlands",
+    "continente": "Europe",
+    "latitude": 52.5,
+    "longitude": 5.75
+  },
+  {
+    "cca2": "HN",
+    "ccn3": "340",
+    "nomePt": "Honduras",
+    "nomeEn": "Honduras",
+    "continente": "Americas",
+    "latitude": 15,
+    "longitude": -86.5
+  },
+  {
+    "cca2": "HK",
+    "ccn3": "344",
+    "nomePt": "Hong Kong",
+    "nomeEn": "Hong Kong",
+    "continente": "Asia",
+    "latitude": 22.267,
+    "longitude": 114.188
+  },
+  {
+    "cca2": "HU",
+    "ccn3": "348",
+    "nomePt": "Hungria",
+    "nomeEn": "Hungary",
+    "continente": "Europe",
+    "latitude": 47,
+    "longitude": 20
+  },
+  {
+    "cca2": "YE",
+    "ccn3": "887",
+    "nomePt": "Iémen",
+    "nomeEn": "Yemen",
+    "continente": "Asia",
+    "latitude": 15,
+    "longitude": 48
+  },
+  {
+    "cca2": "BV",
+    "ccn3": "074",
+    "nomePt": "Ilha Bouvet",
+    "nomeEn": "Bouvet Island",
+    "continente": "Antarctic",
+    "latitude": -54.43333333,
+    "longitude": 3.4
+  },
+  {
+    "cca2": "CW",
+    "ccn3": "531",
+    "nomePt": "ilha da Curação",
+    "nomeEn": "Curaçao",
+    "continente": "Americas",
+    "latitude": 12.116667,
+    "longitude": -68.933333
+  },
+  {
+    "cca2": "IM",
+    "ccn3": "833",
+    "nomePt": "Ilha de Man",
+    "nomeEn": "Isle of Man",
+    "continente": "Europe",
+    "latitude": 54.25,
+    "longitude": -4.5
+  },
+  {
+    "cca2": "CX",
+    "ccn3": "162",
+    "nomePt": "Ilha do Natal",
+    "nomeEn": "Christmas Island",
+    "continente": "Oceania",
+    "latitude": -10.5,
+    "longitude": 105.66666666
+  },
+  {
+    "cca2": "TW",
+    "ccn3": "158",
+    "nomePt": "Ilha Formosa",
+    "nomeEn": "Taiwan",
+    "continente": "Asia",
+    "latitude": 23.5,
+    "longitude": 121
+  },
+  {
+    "cca2": "HM",
+    "ccn3": "334",
+    "nomePt": "Ilha Heard e Ilhas McDonald",
+    "nomeEn": "Heard Island and McDonald Islands",
+    "continente": "Antarctic",
+    "latitude": -53.1,
+    "longitude": 72.51666666
+  },
+  {
+    "cca2": "NF",
+    "ccn3": "574",
+    "nomePt": "Ilha Norfolk",
+    "nomeEn": "Norfolk Island",
+    "continente": "Oceania",
+    "latitude": -29.03333333,
+    "longitude": 167.95
+  },
+  {
+    "cca2": "KY",
+    "ccn3": "136",
+    "nomePt": "Ilhas Caimão",
+    "nomeEn": "Cayman Islands",
+    "continente": "Americas",
+    "latitude": 19.5,
+    "longitude": -80.5
+  },
+  {
+    "cca2": "CC",
+    "ccn3": "166",
+    "nomePt": "Ilhas Cocos (Keeling)",
+    "nomeEn": "Cocos (Keeling) Islands",
+    "continente": "Oceania",
+    "latitude": -12.5,
+    "longitude": 96.83333333
+  },
+  {
+    "cca2": "CK",
+    "ccn3": "184",
+    "nomePt": "Ilhas Cook",
+    "nomeEn": "Cook Islands",
+    "continente": "Oceania",
+    "latitude": -21.23333333,
+    "longitude": -159.76666666
+  },
+  {
+    "cca2": "FO",
+    "ccn3": "234",
+    "nomePt": "Ilhas Faroé",
+    "nomeEn": "Faroe Islands",
+    "continente": "Europe",
+    "latitude": 62,
+    "longitude": -7
+  },
+  {
+    "cca2": "GS",
+    "ccn3": "239",
+    "nomePt": "Ilhas Geórgia do Sul e Sandwich do Sul",
+    "nomeEn": "South Georgia",
+    "continente": "Antarctic",
+    "latitude": -54.5,
+    "longitude": -37
+  },
+  {
+    "cca2": "FK",
+    "ccn3": "238",
+    "nomePt": "Ilhas Malvinas",
+    "nomeEn": "Falkland Islands",
+    "continente": "Americas",
+    "latitude": -51.75,
+    "longitude": -59
+  },
+  {
+    "cca2": "MH",
+    "ccn3": "584",
+    "nomePt": "Ilhas Marshall",
+    "nomeEn": "Marshall Islands",
+    "continente": "Oceania",
+    "latitude": 9,
+    "longitude": 168
+  },
+  {
+    "cca2": "UM",
+    "ccn3": "581",
+    "nomePt": "Ilhas Menores Distantes dos Estados Unidos",
+    "nomeEn": "United States Minor Outlying Islands",
+    "continente": "Americas",
+    "latitude": 19.3,
+    "longitude": 166.633333
+  },
+  {
+    "cca2": "PN",
+    "ccn3": "612",
+    "nomePt": "Ilhas Pitcairn",
+    "nomeEn": "Pitcairn Islands",
+    "continente": "Oceania",
+    "latitude": -25.06666666,
+    "longitude": -130.1
+  },
+  {
+    "cca2": "SB",
+    "ccn3": "090",
+    "nomePt": "Ilhas Salomão",
+    "nomeEn": "Solomon Islands",
+    "continente": "Oceania",
+    "latitude": -8,
+    "longitude": 159
+  },
+  {
+    "cca2": "SJ",
+    "ccn3": "744",
+    "nomePt": "Ilhas Svalbard e Jan Mayen",
+    "nomeEn": "Svalbard and Jan Mayen",
+    "continente": "Europe",
+    "latitude": 78,
+    "longitude": 20
+  },
+  {
+    "cca2": "TC",
+    "ccn3": "796",
+    "nomePt": "Ilhas Turks e Caicos",
+    "nomeEn": "Turks and Caicos Islands",
+    "continente": "Americas",
+    "latitude": 21.75,
+    "longitude": -71.58333333
+  },
+  {
+    "cca2": "VG",
+    "ccn3": "092",
+    "nomePt": "Ilhas Virgens",
+    "nomeEn": "British Virgin Islands",
+    "continente": "Americas",
+    "latitude": 18.431383,
+    "longitude": -64.62305
+  },
+  {
+    "cca2": "VI",
+    "ccn3": "850",
+    "nomePt": "Ilhas Virgens dos Estados Unidos",
+    "nomeEn": "United States Virgin Islands",
+    "continente": "Americas",
+    "latitude": 18.35,
+    "longitude": -64.933333
+  },
+  {
+    "cca2": "IN",
+    "ccn3": "356",
+    "nomePt": "Índia",
+    "nomeEn": "India",
+    "continente": "Asia",
+    "latitude": 20,
+    "longitude": 77
+  },
+  {
+    "cca2": "ID",
+    "ccn3": "360",
+    "nomePt": "Indonésia",
+    "nomeEn": "Indonesia",
+    "continente": "Asia",
+    "latitude": -5,
+    "longitude": 120
+  },
+  {
+    "cca2": "IR",
+    "ccn3": "364",
+    "nomePt": "Irão",
+    "nomeEn": "Iran",
+    "continente": "Asia",
+    "latitude": 32,
+    "longitude": 53
+  },
+  {
+    "cca2": "IQ",
+    "ccn3": "368",
+    "nomePt": "Iraque",
+    "nomeEn": "Iraq",
+    "continente": "Asia",
+    "latitude": 33,
+    "longitude": 44
+  },
+  {
+    "cca2": "IE",
+    "ccn3": "372",
+    "nomePt": "Irlanda",
+    "nomeEn": "Ireland",
+    "continente": "Europe",
+    "latitude": 53,
+    "longitude": -8
+  },
+  {
+    "cca2": "IS",
+    "ccn3": "352",
+    "nomePt": "Islândia",
+    "nomeEn": "Iceland",
+    "continente": "Europe",
+    "latitude": 65,
+    "longitude": -18
+  },
+  {
+    "cca2": "IL",
+    "ccn3": "376",
+    "nomePt": "Israel",
+    "nomeEn": "Israel",
+    "continente": "Asia",
+    "latitude": 31.47,
+    "longitude": 35.13
+  },
+  {
+    "cca2": "IT",
+    "ccn3": "380",
+    "nomePt": "Itália",
+    "nomeEn": "Italy",
+    "continente": "Europe",
+    "latitude": 42.83333333,
+    "longitude": 12.83333333
+  },
+  {
+    "cca2": "JM",
+    "ccn3": "388",
+    "nomePt": "Jamaica",
+    "nomeEn": "Jamaica",
+    "continente": "Americas",
+    "latitude": 18.25,
+    "longitude": -77.5
+  },
+  {
+    "cca2": "JP",
+    "ccn3": "392",
+    "nomePt": "Japão",
+    "nomeEn": "Japan",
+    "continente": "Asia",
+    "latitude": 36,
+    "longitude": 138
+  },
+  {
+    "cca2": "JE",
+    "ccn3": "832",
+    "nomePt": "Jersey",
+    "nomeEn": "Jersey",
+    "continente": "Europe",
+    "latitude": 49.25,
+    "longitude": -2.16666666
+  },
+  {
+    "cca2": "JO",
+    "ccn3": "400",
+    "nomePt": "Jordânia",
+    "nomeEn": "Jordan",
+    "continente": "Asia",
+    "latitude": 31,
+    "longitude": 36
+  },
+  {
+    "cca2": "KI",
+    "ccn3": "296",
+    "nomePt": "Kiribati",
+    "nomeEn": "Kiribati",
+    "continente": "Oceania",
+    "latitude": 1.41666666,
+    "longitude": 173
+  },
+  {
+    "cca2": "XK",
+    "ccn3": null,
+    "nomePt": "Kosovo",
+    "nomeEn": "Kosovo",
+    "continente": "Europe",
+    "latitude": 42.666667,
+    "longitude": 21.166667
+  },
+  {
+    "cca2": "KW",
+    "ccn3": "414",
+    "nomePt": "Kuwait",
+    "nomeEn": "Kuwait",
+    "continente": "Asia",
+    "latitude": 29.5,
+    "longitude": 45.75
+  },
+  {
+    "cca2": "LA",
+    "ccn3": "418",
+    "nomePt": "Laos",
+    "nomeEn": "Laos",
+    "continente": "Asia",
+    "latitude": 18,
+    "longitude": 105
+  },
+  {
+    "cca2": "LS",
+    "ccn3": "426",
+    "nomePt": "Lesoto",
+    "nomeEn": "Lesotho",
+    "continente": "Africa",
+    "latitude": -29.5,
+    "longitude": 28.5
+  },
+  {
+    "cca2": "LV",
+    "ccn3": "428",
+    "nomePt": "Letónia",
+    "nomeEn": "Latvia",
+    "continente": "Europe",
+    "latitude": 57,
+    "longitude": 25
+  },
+  {
+    "cca2": "LB",
+    "ccn3": "422",
+    "nomePt": "Líbano",
+    "nomeEn": "Lebanon",
+    "continente": "Asia",
+    "latitude": 33.83333333,
+    "longitude": 35.83333333
+  },
+  {
+    "cca2": "LR",
+    "ccn3": "430",
+    "nomePt": "Libéria",
+    "nomeEn": "Liberia",
+    "continente": "Africa",
+    "latitude": 6.5,
+    "longitude": -9.5
+  },
+  {
+    "cca2": "LY",
+    "ccn3": "434",
+    "nomePt": "Líbia",
+    "nomeEn": "Libya",
+    "continente": "Africa",
+    "latitude": 25,
+    "longitude": 17
+  },
+  {
+    "cca2": "LI",
+    "ccn3": "438",
+    "nomePt": "Liechtenstein",
+    "nomeEn": "Liechtenstein",
+    "continente": "Europe",
+    "latitude": 47.26666666,
+    "longitude": 9.53333333
+  },
+  {
+    "cca2": "LT",
+    "ccn3": "440",
+    "nomePt": "Lituânia",
+    "nomeEn": "Lithuania",
+    "continente": "Europe",
+    "latitude": 56,
+    "longitude": 24
+  },
+  {
+    "cca2": "LU",
+    "ccn3": "442",
+    "nomePt": "Luxemburgo",
+    "nomeEn": "Luxembourg",
+    "continente": "Europe",
+    "latitude": 49.75,
+    "longitude": 6.16666666
+  },
+  {
+    "cca2": "MO",
+    "ccn3": "446",
+    "nomePt": "Macau",
+    "nomeEn": "Macau",
+    "continente": "Asia",
+    "latitude": 22.16666666,
+    "longitude": 113.55
+  },
+  {
+    "cca2": "MK",
+    "ccn3": "807",
+    "nomePt": "Macedónia do Norte",
+    "nomeEn": "North Macedonia",
+    "continente": "Europe",
+    "latitude": 41.83333333,
+    "longitude": 22
+  },
+  {
+    "cca2": "MG",
+    "ccn3": "450",
+    "nomePt": "Madagáscar",
+    "nomeEn": "Madagascar",
+    "continente": "Africa",
+    "latitude": -20,
+    "longitude": 47
+  },
+  {
+    "cca2": "MY",
+    "ccn3": "458",
+    "nomePt": "Malásia",
+    "nomeEn": "Malaysia",
+    "continente": "Asia",
+    "latitude": 2.5,
+    "longitude": 112.5
+  },
+  {
+    "cca2": "MW",
+    "ccn3": "454",
+    "nomePt": "Malawi",
+    "nomeEn": "Malawi",
+    "continente": "Africa",
+    "latitude": -13.5,
+    "longitude": 34
+  },
+  {
+    "cca2": "MV",
+    "ccn3": "462",
+    "nomePt": "Maldivas",
+    "nomeEn": "Maldives",
+    "continente": "Asia",
+    "latitude": 3.25,
+    "longitude": 73
+  },
+  {
+    "cca2": "ML",
+    "ccn3": "466",
+    "nomePt": "Mali",
+    "nomeEn": "Mali",
+    "continente": "Africa",
+    "latitude": 17,
+    "longitude": -4
+  },
+  {
+    "cca2": "MT",
+    "ccn3": "470",
+    "nomePt": "Malta",
+    "nomeEn": "Malta",
+    "continente": "Europe",
+    "latitude": 35.83333333,
+    "longitude": 14.58333333
+  },
+  {
+    "cca2": "MP",
+    "ccn3": "580",
+    "nomePt": "Marianas Setentrionais",
+    "nomeEn": "Northern Mariana Islands",
+    "continente": "Oceania",
+    "latitude": 15.2,
+    "longitude": 145.75
+  },
+  {
+    "cca2": "MA",
+    "ccn3": "504",
+    "nomePt": "Marrocos",
+    "nomeEn": "Morocco",
+    "continente": "Africa",
+    "latitude": 32,
+    "longitude": -5
+  },
+  {
+    "cca2": "MQ",
+    "ccn3": "474",
+    "nomePt": "Martinica",
+    "nomeEn": "Martinique",
+    "continente": "Americas",
+    "latitude": 14.666667,
+    "longitude": -61
+  },
+  {
+    "cca2": "MU",
+    "ccn3": "480",
+    "nomePt": "Maurício",
+    "nomeEn": "Mauritius",
+    "continente": "Africa",
+    "latitude": -20.28333333,
+    "longitude": 57.55
+  },
+  {
+    "cca2": "MR",
+    "ccn3": "478",
+    "nomePt": "Mauritânia",
+    "nomeEn": "Mauritania",
+    "continente": "Africa",
+    "latitude": 20,
+    "longitude": -12
+  },
+  {
+    "cca2": "YT",
+    "ccn3": "175",
+    "nomePt": "Mayotte",
+    "nomeEn": "Mayotte",
+    "continente": "Africa",
+    "latitude": -12.83333333,
+    "longitude": 45.16666666
+  },
+  {
+    "cca2": "MX",
+    "ccn3": "484",
+    "nomePt": "México",
+    "nomeEn": "Mexico",
+    "continente": "Americas",
+    "latitude": 23,
+    "longitude": -102
+  },
+  {
+    "cca2": "FM",
+    "ccn3": "583",
+    "nomePt": "Micronésia",
+    "nomeEn": "Micronesia",
+    "continente": "Oceania",
+    "latitude": 6.91666666,
+    "longitude": 158.25
+  },
+  {
+    "cca2": "MZ",
+    "ccn3": "508",
+    "nomePt": "Moçambique",
+    "nomeEn": "Mozambique",
+    "continente": "Africa",
+    "latitude": -18.25,
+    "longitude": 35
+  },
+  {
+    "cca2": "MD",
+    "ccn3": "498",
+    "nomePt": "Moldávia",
+    "nomeEn": "Moldova",
+    "continente": "Europe",
+    "latitude": 47,
+    "longitude": 29
+  },
+  {
+    "cca2": "MC",
+    "ccn3": "492",
+    "nomePt": "Mónaco",
+    "nomeEn": "Monaco",
+    "continente": "Europe",
+    "latitude": 43.73333333,
+    "longitude": 7.4
+  },
+  {
+    "cca2": "MN",
+    "ccn3": "496",
+    "nomePt": "Mongólia",
+    "nomeEn": "Mongolia",
+    "continente": "Asia",
+    "latitude": 46,
+    "longitude": 105
+  },
+  {
+    "cca2": "ME",
+    "ccn3": "499",
+    "nomePt": "Montenegro",
+    "nomeEn": "Montenegro",
+    "continente": "Europe",
+    "latitude": 42.5,
+    "longitude": 19.3
+  },
+  {
+    "cca2": "MS",
+    "ccn3": "500",
+    "nomePt": "Montserrat",
+    "nomeEn": "Montserrat",
+    "continente": "Americas",
+    "latitude": 16.75,
+    "longitude": -62.2
+  },
+  {
+    "cca2": "MM",
+    "ccn3": "104",
+    "nomePt": "Myanmar",
+    "nomeEn": "Myanmar",
+    "continente": "Asia",
+    "latitude": 22,
+    "longitude": 98
+  },
+  {
+    "cca2": "NA",
+    "ccn3": "516",
+    "nomePt": "Namíbia",
+    "nomeEn": "Namibia",
+    "continente": "Africa",
+    "latitude": -22,
+    "longitude": 17
+  },
+  {
+    "cca2": "NR",
+    "ccn3": "520",
+    "nomePt": "Nauru",
+    "nomeEn": "Nauru",
+    "continente": "Oceania",
+    "latitude": -0.53333333,
+    "longitude": 166.91666666
+  },
+  {
+    "cca2": "NP",
+    "ccn3": "524",
+    "nomePt": "Nepal",
+    "nomeEn": "Nepal",
+    "continente": "Asia",
+    "latitude": 28,
+    "longitude": 84
+  },
+  {
+    "cca2": "NI",
+    "ccn3": "558",
+    "nomePt": "Nicarágua",
+    "nomeEn": "Nicaragua",
+    "continente": "Americas",
+    "latitude": 13,
+    "longitude": -85
+  },
+  {
+    "cca2": "NE",
+    "ccn3": "562",
+    "nomePt": "Níger",
+    "nomeEn": "Niger",
+    "continente": "Africa",
+    "latitude": 16,
+    "longitude": 8
+  },
+  {
+    "cca2": "NG",
+    "ccn3": "566",
+    "nomePt": "Nigéria",
+    "nomeEn": "Nigeria",
+    "continente": "Africa",
+    "latitude": 10,
+    "longitude": 8
+  },
+  {
+    "cca2": "NU",
+    "ccn3": "570",
+    "nomePt": "Niue",
+    "nomeEn": "Niue",
+    "continente": "Oceania",
+    "latitude": -19.03333333,
+    "longitude": -169.86666666
+  },
+  {
+    "cca2": "NO",
+    "ccn3": "578",
+    "nomePt": "Noruega",
+    "nomeEn": "Norway",
+    "continente": "Europe",
+    "latitude": 62,
+    "longitude": 10
+  },
+  {
+    "cca2": "NC",
+    "ccn3": "540",
+    "nomePt": "Nova Caledónia",
+    "nomeEn": "New Caledonia",
+    "continente": "Oceania",
+    "latitude": -21.5,
+    "longitude": 165.5
+  },
+  {
+    "cca2": "NZ",
+    "ccn3": "554",
+    "nomePt": "Nova Zelândia",
+    "nomeEn": "New Zealand",
+    "continente": "Oceania",
+    "latitude": -41,
+    "longitude": 174
+  },
+  {
+    "cca2": "OM",
+    "ccn3": "512",
+    "nomePt": "Omã",
+    "nomeEn": "Oman",
+    "continente": "Asia",
+    "latitude": 21,
+    "longitude": 57
+  },
+  {
+    "cca2": "BQ",
+    "ccn3": "535",
+    "nomePt": "Países Baixos Caribenhos",
+    "nomeEn": "Caribbean Netherlands",
+    "continente": "Americas",
+    "latitude": 12.18,
+    "longitude": -68.25
+  },
+  {
+    "cca2": "PW",
+    "ccn3": "585",
+    "nomePt": "Palau",
+    "nomeEn": "Palau",
+    "continente": "Oceania",
+    "latitude": 7.5,
+    "longitude": 134.5
+  },
+  {
+    "cca2": "PS",
+    "ccn3": "275",
+    "nomePt": "Palestina",
+    "nomeEn": "Palestine",
+    "continente": "Asia",
+    "latitude": 31.9,
+    "longitude": 35.2
+  },
+  {
+    "cca2": "PA",
+    "ccn3": "591",
+    "nomePt": "Panamá",
+    "nomeEn": "Panama",
+    "continente": "Americas",
+    "latitude": 9,
+    "longitude": -80
+  },
+  {
+    "cca2": "PG",
+    "ccn3": "598",
+    "nomePt": "Papua Nova Guiné",
+    "nomeEn": "Papua New Guinea",
+    "continente": "Oceania",
+    "latitude": -6,
+    "longitude": 147
+  },
+  {
+    "cca2": "PK",
+    "ccn3": "586",
+    "nomePt": "Paquistão",
+    "nomeEn": "Pakistan",
+    "continente": "Asia",
+    "latitude": 30,
+    "longitude": 70
+  },
+  {
+    "cca2": "PY",
+    "ccn3": "600",
+    "nomePt": "Paraguai",
+    "nomeEn": "Paraguay",
+    "continente": "Americas",
+    "latitude": -23,
+    "longitude": -58
+  },
+  {
+    "cca2": "PE",
+    "ccn3": "604",
+    "nomePt": "Perú",
+    "nomeEn": "Peru",
+    "continente": "Americas",
+    "latitude": -10,
+    "longitude": -76
+  },
+  {
+    "cca2": "PF",
+    "ccn3": "258",
+    "nomePt": "Polinésia Francesa",
+    "nomeEn": "French Polynesia",
+    "continente": "Oceania",
+    "latitude": -15,
+    "longitude": -140
+  },
+  {
+    "cca2": "PL",
+    "ccn3": "616",
+    "nomePt": "Polónia",
+    "nomeEn": "Poland",
+    "continente": "Europe",
+    "latitude": 52,
+    "longitude": 20
+  },
+  {
+    "cca2": "PR",
+    "ccn3": "630",
+    "nomePt": "Porto Rico",
+    "nomeEn": "Puerto Rico",
+    "continente": "Americas",
+    "latitude": 18.25,
+    "longitude": -66.5
+  },
+  {
+    "cca2": "PT",
+    "ccn3": "620",
+    "nomePt": "Portugal",
+    "nomeEn": "Portugal",
+    "continente": "Europe",
+    "latitude": 39.5,
+    "longitude": -8
+  },
+  {
+    "cca2": "KE",
+    "ccn3": "404",
+    "nomePt": "Quénia",
+    "nomeEn": "Kenya",
+    "continente": "Africa",
+    "latitude": 1,
+    "longitude": 38
+  },
+  {
+    "cca2": "KG",
+    "ccn3": "417",
+    "nomePt": "Quirguistão",
+    "nomeEn": "Kyrgyzstan",
+    "continente": "Asia",
+    "latitude": 41,
+    "longitude": 75
+  },
+  {
+    "cca2": "GB",
+    "ccn3": "826",
+    "nomePt": "Reino Unido",
+    "nomeEn": "United Kingdom",
+    "continente": "Europe",
+    "latitude": 54,
+    "longitude": -2
+  },
+  {
+    "cca2": "CF",
+    "ccn3": "140",
+    "nomePt": "República Centro-Africana",
+    "nomeEn": "Central African Republic",
+    "continente": "Africa",
+    "latitude": 7,
+    "longitude": 21
+  },
+  {
+    "cca2": "CD",
+    "ccn3": "180",
+    "nomePt": "República Democrática do Congo",
+    "nomeEn": "DR Congo",
+    "continente": "Africa",
+    "latitude": 0,
+    "longitude": 25
+  },
+  {
+    "cca2": "DO",
+    "ccn3": "214",
+    "nomePt": "República Dominicana",
+    "nomeEn": "Dominican Republic",
+    "continente": "Americas",
+    "latitude": 19,
+    "longitude": -70.66666666
+  },
+  {
+    "cca2": "RE",
+    "ccn3": "638",
+    "nomePt": "Reunião",
+    "nomeEn": "Réunion",
+    "continente": "Africa",
+    "latitude": -21.15,
+    "longitude": 55.5
+  },
+  {
+    "cca2": "RO",
+    "ccn3": "642",
+    "nomePt": "Roménia",
+    "nomeEn": "Romania",
+    "continente": "Europe",
+    "latitude": 46,
+    "longitude": 25
+  },
+  {
+    "cca2": "RW",
+    "ccn3": "646",
+    "nomePt": "Ruanda",
+    "nomeEn": "Rwanda",
+    "continente": "Africa",
+    "latitude": -2,
+    "longitude": 30
+  },
+  {
+    "cca2": "RU",
+    "ccn3": "643",
+    "nomePt": "Rússia",
+    "nomeEn": "Russia",
+    "continente": "Europe",
+    "latitude": 60,
+    "longitude": 100
+  },
+  {
+    "cca2": "EH",
+    "ccn3": "732",
+    "nomePt": "Saara Ocidental",
+    "nomeEn": "Western Sahara",
+    "continente": "Africa",
+    "latitude": 24.5,
+    "longitude": -13
+  },
+  {
+    "cca2": "PM",
+    "ccn3": "666",
+    "nomePt": "Saint-Pierre e Miquelon",
+    "nomeEn": "Saint Pierre and Miquelon",
+    "continente": "Americas",
+    "latitude": 46.83333333,
+    "longitude": -56.33333333
+  },
+  {
+    "cca2": "WS",
+    "ccn3": "882",
+    "nomePt": "Samoa",
+    "nomeEn": "Samoa",
+    "continente": "Oceania",
+    "latitude": -13.58333333,
+    "longitude": -172.33333333
+  },
+  {
+    "cca2": "AS",
+    "ccn3": "016",
+    "nomePt": "Samoa Americana",
+    "nomeEn": "American Samoa",
+    "continente": "Oceania",
+    "latitude": -14.33333333,
+    "longitude": -170
+  },
+  {
+    "cca2": "SM",
+    "ccn3": "674",
+    "nomePt": "San Marino",
+    "nomeEn": "San Marino",
+    "continente": "Europe",
+    "latitude": 43.76666666,
+    "longitude": 12.41666666
+  },
+  {
+    "cca2": "SH",
+    "ccn3": "654",
+    "nomePt": "Santa Helena, Ascensão e Tristão da Cunha",
+    "nomeEn": "Saint Helena, Ascension and Tristan da Cunha",
+    "continente": "Africa",
+    "latitude": -15.95,
+    "longitude": -5.72
+  },
+  {
+    "cca2": "LC",
+    "ccn3": "662",
+    "nomePt": "Santa Lúcia",
+    "nomeEn": "Saint Lucia",
+    "continente": "Americas",
+    "latitude": 13.88333333,
+    "longitude": -60.96666666
+  },
+  {
+    "cca2": "BL",
+    "ccn3": "652",
+    "nomePt": "São Bartolomeu",
+    "nomeEn": "Saint Barthélemy",
+    "continente": "Americas",
+    "latitude": 18.5,
+    "longitude": -63.41666666
+  },
+  {
+    "cca2": "KN",
+    "ccn3": "659",
+    "nomePt": "São Cristóvão e Nevis",
+    "nomeEn": "Saint Kitts and Nevis",
+    "continente": "Americas",
+    "latitude": 17.33333333,
+    "longitude": -62.75
+  },
+  {
+    "cca2": "MF",
+    "ccn3": "663",
+    "nomePt": "São Martinho",
+    "nomeEn": "Saint Martin",
+    "continente": "Americas",
+    "latitude": 18.08333333,
+    "longitude": -63.95
+  },
+  {
+    "cca2": "SX",
+    "ccn3": "534",
+    "nomePt": "São Martinho",
+    "nomeEn": "Sint Maarten",
+    "continente": "Americas",
+    "latitude": 18.033333,
+    "longitude": -63.05
+  },
+  {
+    "cca2": "ST",
+    "ccn3": "678",
+    "nomePt": "São Tomé e Príncipe",
+    "nomeEn": "São Tomé and Príncipe",
+    "continente": "Africa",
+    "latitude": 1,
+    "longitude": 7
+  },
+  {
+    "cca2": "VC",
+    "ccn3": "670",
+    "nomePt": "São Vincente e Granadinas",
+    "nomeEn": "Saint Vincent and the Grenadines",
+    "continente": "Americas",
+    "latitude": 13.25,
+    "longitude": -61.2
+  },
+  {
+    "cca2": "SC",
+    "ccn3": "690",
+    "nomePt": "Seicheles",
+    "nomeEn": "Seychelles",
+    "continente": "Africa",
+    "latitude": -4.58333333,
+    "longitude": 55.66666666
+  },
+  {
+    "cca2": "SN",
+    "ccn3": "686",
+    "nomePt": "Senegal",
+    "nomeEn": "Senegal",
+    "continente": "Africa",
+    "latitude": 14,
+    "longitude": -14
+  },
+  {
+    "cca2": "SL",
+    "ccn3": "694",
+    "nomePt": "Serra Leoa",
+    "nomeEn": "Sierra Leone",
+    "continente": "Africa",
+    "latitude": 8.5,
+    "longitude": -11.5
+  },
+  {
+    "cca2": "RS",
+    "ccn3": "688",
+    "nomePt": "Sérvia",
+    "nomeEn": "Serbia",
+    "continente": "Europe",
+    "latitude": 44,
+    "longitude": 21
+  },
+  {
+    "cca2": "SG",
+    "ccn3": "702",
+    "nomePt": "Singapura",
+    "nomeEn": "Singapore",
+    "continente": "Asia",
+    "latitude": 1.36666666,
+    "longitude": 103.8
+  },
+  {
+    "cca2": "SY",
+    "ccn3": "760",
+    "nomePt": "Síria",
+    "nomeEn": "Syria",
+    "continente": "Asia",
+    "latitude": 35,
+    "longitude": 38
+  },
+  {
+    "cca2": "SO",
+    "ccn3": "706",
+    "nomePt": "Somália",
+    "nomeEn": "Somalia",
+    "continente": "Africa",
+    "latitude": 10,
+    "longitude": 49
+  },
+  {
+    "cca2": "LK",
+    "ccn3": "144",
+    "nomePt": "Sri Lanka",
+    "nomeEn": "Sri Lanka",
+    "continente": "Asia",
+    "latitude": 7,
+    "longitude": 81
+  },
+  {
+    "cca2": "SZ",
+    "ccn3": "748",
+    "nomePt": "Suazilândia",
+    "nomeEn": "Eswatini",
+    "continente": "Africa",
+    "latitude": -26.5,
+    "longitude": 31.5
+  },
+  {
+    "cca2": "SD",
+    "ccn3": "729",
+    "nomePt": "Sudão",
+    "nomeEn": "Sudan",
+    "continente": "Africa",
+    "latitude": 15,
+    "longitude": 30
+  },
+  {
+    "cca2": "SS",
+    "ccn3": "728",
+    "nomePt": "Sudão do Sul",
+    "nomeEn": "South Sudan",
+    "continente": "Africa",
+    "latitude": 7,
+    "longitude": 30
+  },
+  {
+    "cca2": "SE",
+    "ccn3": "752",
+    "nomePt": "Suécia",
+    "nomeEn": "Sweden",
+    "continente": "Europe",
+    "latitude": 62,
+    "longitude": 15
+  },
+  {
+    "cca2": "CH",
+    "ccn3": "756",
+    "nomePt": "Suíça",
+    "nomeEn": "Switzerland",
+    "continente": "Europe",
+    "latitude": 47,
+    "longitude": 8
+  },
+  {
+    "cca2": "SR",
+    "ccn3": "740",
+    "nomePt": "Suriname",
+    "nomeEn": "Suriname",
+    "continente": "Americas",
+    "latitude": 4,
+    "longitude": -56
+  },
+  {
+    "cca2": "TH",
+    "ccn3": "764",
+    "nomePt": "Tailândia",
+    "nomeEn": "Thailand",
+    "continente": "Asia",
+    "latitude": 15,
+    "longitude": 100
+  },
+  {
+    "cca2": "TJ",
+    "ccn3": "762",
+    "nomePt": "Tajiquistão",
+    "nomeEn": "Tajikistan",
+    "continente": "Asia",
+    "latitude": 39,
+    "longitude": 71
+  },
+  {
+    "cca2": "TZ",
+    "ccn3": "834",
+    "nomePt": "Tanzânia",
+    "nomeEn": "Tanzania",
+    "continente": "Africa",
+    "latitude": -6,
+    "longitude": 35
+  },
+  {
+    "cca2": "TF",
+    "ccn3": "260",
+    "nomePt": "Terras Austrais e Antárticas Francesas",
+    "nomeEn": "French Southern and Antarctic Lands",
+    "continente": "Antarctic",
+    "latitude": -49.25,
+    "longitude": 69.167
+  },
+  {
+    "cca2": "IO",
+    "ccn3": "086",
+    "nomePt": "Território Britânico do Oceano Índico",
+    "nomeEn": "British Indian Ocean Territory",
+    "continente": "Africa",
+    "latitude": -6,
+    "longitude": 71.5
+  },
+  {
+    "cca2": "TL",
+    "ccn3": "626",
+    "nomePt": "Timor-Leste",
+    "nomeEn": "Timor-Leste",
+    "continente": "Asia",
+    "latitude": -8.83333333,
+    "longitude": 125.91666666
+  },
+  {
+    "cca2": "TG",
+    "ccn3": "768",
+    "nomePt": "Togo",
+    "nomeEn": "Togo",
+    "continente": "Africa",
+    "latitude": 8,
+    "longitude": 1.16666666
+  },
+  {
+    "cca2": "TK",
+    "ccn3": "772",
+    "nomePt": "Tokelau",
+    "nomeEn": "Tokelau",
+    "continente": "Oceania",
+    "latitude": -9,
+    "longitude": -172
+  },
+  {
+    "cca2": "TO",
+    "ccn3": "776",
+    "nomePt": "Tonga",
+    "nomeEn": "Tonga",
+    "continente": "Oceania",
+    "latitude": -20,
+    "longitude": -175
+  },
+  {
+    "cca2": "TT",
+    "ccn3": "780",
+    "nomePt": "Trinidade e Tobago",
+    "nomeEn": "Trinidad and Tobago",
+    "continente": "Americas",
+    "latitude": 11,
+    "longitude": -61
+  },
+  {
+    "cca2": "TN",
+    "ccn3": "788",
+    "nomePt": "Tunísia",
+    "nomeEn": "Tunisia",
+    "continente": "Africa",
+    "latitude": 34,
+    "longitude": 9
+  },
+  {
+    "cca2": "TM",
+    "ccn3": "795",
+    "nomePt": "Turquemenistão",
+    "nomeEn": "Turkmenistan",
+    "continente": "Asia",
+    "latitude": 40,
+    "longitude": 60
+  },
+  {
+    "cca2": "TR",
+    "ccn3": "792",
+    "nomePt": "Turquia",
+    "nomeEn": "Türkiye",
+    "continente": "Asia",
+    "latitude": 39,
+    "longitude": 35
+  },
+  {
+    "cca2": "TV",
+    "ccn3": "798",
+    "nomePt": "Tuvalu",
+    "nomeEn": "Tuvalu",
+    "continente": "Oceania",
+    "latitude": -8,
+    "longitude": 178
+  },
+  {
+    "cca2": "UA",
+    "ccn3": "804",
+    "nomePt": "Ucrânia",
+    "nomeEn": "Ukraine",
+    "continente": "Europe",
+    "latitude": 49,
+    "longitude": 32
+  },
+  {
+    "cca2": "UG",
+    "ccn3": "800",
+    "nomePt": "Uganda",
+    "nomeEn": "Uganda",
+    "continente": "Africa",
+    "latitude": 1,
+    "longitude": 32
+  },
+  {
+    "cca2": "UY",
+    "ccn3": "858",
+    "nomePt": "Uruguai",
+    "nomeEn": "Uruguay",
+    "continente": "Americas",
+    "latitude": -33,
+    "longitude": -56
+  },
+  {
+    "cca2": "UZ",
+    "ccn3": "860",
+    "nomePt": "Uzbequistão",
+    "nomeEn": "Uzbekistan",
+    "continente": "Asia",
+    "latitude": 41,
+    "longitude": 64
+  },
+  {
+    "cca2": "VU",
+    "ccn3": "548",
+    "nomePt": "Vanuatu",
+    "nomeEn": "Vanuatu",
+    "continente": "Oceania",
+    "latitude": -16,
+    "longitude": 167
+  },
+  {
+    "cca2": "VE",
+    "ccn3": "862",
+    "nomePt": "Venezuela",
+    "nomeEn": "Venezuela",
+    "continente": "Americas",
+    "latitude": 8,
+    "longitude": -66
+  },
+  {
+    "cca2": "VN",
+    "ccn3": "704",
+    "nomePt": "Vietname",
+    "nomeEn": "Vietnam",
+    "continente": "Asia",
+    "latitude": 16.16666666,
+    "longitude": 107.83333333
+  },
+  {
+    "cca2": "WF",
+    "ccn3": "876",
+    "nomePt": "Wallis e Futuna",
+    "nomeEn": "Wallis and Futuna",
+    "continente": "Oceania",
+    "latitude": -13.3,
+    "longitude": -176.2
+  },
+  {
+    "cca2": "ZM",
+    "ccn3": "894",
+    "nomePt": "Zâmbia",
+    "nomeEn": "Zambia",
+    "continente": "Africa",
+    "latitude": -15,
+    "longitude": 30
+  },
+  {
+    "cca2": "ZW",
+    "ccn3": "716",
+    "nomePt": "Zimbabwe",
+    "nomeEn": "Zimbabwe",
+    "continente": "Africa",
+    "latitude": -20,
+    "longitude": 30
+  }
+]

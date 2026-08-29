@@ -234,7 +234,7 @@ export function WorldMap({
           <Legenda cor={CORES.naoVisitado} label="Não visitado" />
           <Legenda cor={CORES.realizada} label="Já fui" />
           <Legenda cor={CORES.planejada} label="Planejada" />
-          <Legenda cor={CORES.desejo} label="Quero ir" />
+          <Legenda cor={CORES.desejo} label="Quero ir" estrela />
           <View className="flex-row items-center gap-1">
             <ZoomIn size={13} color="#71717a" />
             <Text className="text-xs text-muted-foreground">
@@ -288,10 +288,16 @@ export function WorldMap({
   );
 }
 
-function Legenda({ cor, label }: { cor: string; label: string }) {
+function Legenda({ cor, label, estrela }: { cor: string; label: string; estrela?: boolean }) {
   return (
     <View className="flex-row items-center gap-1.5">
-      <View style={{ width: 10, height: 10, borderRadius: 2, backgroundColor: cor }} />
+      {estrela ? (
+        <Svg width={10} height={10}>
+          <Path d={estrelaPath(5, 5, 5, 2)} fill={cor} />
+        </Svg>
+      ) : (
+        <View style={{ width: 10, height: 10, borderRadius: 2, backgroundColor: cor }} />
+      )}
       <Text className="text-xs text-muted-foreground">{label}</Text>
     </View>
   );

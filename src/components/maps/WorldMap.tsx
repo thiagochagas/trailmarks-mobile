@@ -20,7 +20,7 @@ export interface MarcadorMapa {
   nomePais: string;
   latitude: number;
   longitude: number;
-  status: "realizada" | "planejada";
+  status: "realizada" | "planejada" | "desejo";
   dataInicio: string | null;
   dataFim: string | null;
   observacoes: string | null;
@@ -43,9 +43,28 @@ const CORES = {
   borda: "#d4d4d4",
   realizada: "#f97316",
   planejada: "#7c3aed",
+  desejo: "#f59e0b",
 };
 
 const ZOOM_MAXIMO = 6;
+
+function estrelaPath(cx: number, cy: number, raioExterno: number, raioInterno: number): string {
+  const pontas = 5;
+  const passo = Math.PI / pontas;
+  let rotacao = -Math.PI / 2;
+  let d = "";
+  for (let i = 0; i < pontas; i++) {
+    const xExt = cx + Math.cos(rotacao) * raioExterno;
+    const yExt = cy + Math.sin(rotacao) * raioExterno;
+    d += i === 0 ? `M ${xExt} ${yExt}` : ` L ${xExt} ${yExt}`;
+    rotacao += passo;
+    const xInt = cx + Math.cos(rotacao) * raioInterno;
+    const yInt = cy + Math.sin(rotacao) * raioInterno;
+    d += ` L ${xInt} ${yInt}`;
+    rotacao += passo;
+  }
+  return `${d} Z`;
+}
 
 export function WorldMap({
   paisesVisitados,
@@ -183,10 +202,14 @@ export function WorldMap({
         );
       })}
       {marcadoresProjetados.map(({ marcador, x, y }) => {
-        const cor = marcador.status === "realizada" ? CORES.realizada : CORES.planejada;
+        const cor = CORES[marcador.status];
         return (
           <Fragment key={marcador.id}>
-            <Circle cx={x} cy={y} r={2.5} fill={cor} stroke="#fff" strokeWidth={1} />
+            {marcador.status === "desejo" ? (
+              <Path d={estrelaPath(x, y, 3.2, 1.3)} fill={cor} stroke="#fff" strokeWidth={0.75} />
+            ) : (
+              <Circle cx={x} cy={y} r={2.5} fill={cor} stroke="#fff" strokeWidth={1} />
+            )}
           </Fragment>
         );
       })}
@@ -211,6 +234,7 @@ export function WorldMap({
           <Legenda cor={CORES.naoVisitado} label="Não visitado" />
           <Legenda cor={CORES.realizada} label="Já fui" />
           <Legenda cor={CORES.planejada} label="Planejada" />
+          <Legenda cor={CORES.desejo} label="Quero ir" />
           <View className="flex-row items-center gap-1">
             <ZoomIn size={13} color="#71717a" />
             <Text className="text-xs text-muted-foreground">
@@ -248,9 +272,11 @@ export function WorldMap({
                   <X size={18} color="#71717a" />
                 </Pressable>
               </View>
-              <Text className="text-sm text-muted-foreground">
-                {selecionado && formatarIntervalo(selecionado.dataInicio, selecionado.dataFim)}
-              </Text>
+              {selecionado?.status !== "desejo" && (
+                <Text className="text-sm text-muted-foreground">
+                  {selecionado && formatarIntervalo(selecionado.dataInicio, selecionado.dataFim)}
+                </Text>
+              )}
               {selecionado?.observacoes && (
                 <Text className="text-sm text-foreground">{selecionado.observacoes}</Text>
               )}

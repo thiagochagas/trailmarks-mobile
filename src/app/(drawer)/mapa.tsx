@@ -4,7 +4,7 @@ import { useFocusEffect } from "@react-navigation/native";
 import type { Pessoa, Viagem } from "@/lib/domain/types";
 import { listarViagens } from "@/lib/actions/viagens";
 import { listarPessoas } from "@/lib/actions/pessoas";
-import { TODOS_PAISES, paisesPorContinente } from "@/lib/domain/paises";
+import { TODOS_PAISES, paisesPorContinente, paisPorCca2 } from "@/lib/domain/paises";
 import { WorldMap, type MarcadorMapa } from "@/components/maps/WorldMap";
 import { FiltroPessoas } from "@/components/FiltroPessoas";
 
@@ -17,7 +17,10 @@ export default function MapaScreen() {
 
   const carregar = useCallback(async (filtro: string[] = []) => {
     const [resultadoViagens, resultadoPessoas] = await Promise.all([
-      listarViagens(["realizada", "planejada"], filtro.length > 0 ? filtro : undefined),
+      listarViagens(
+        ["realizada", "planejada", "desejo"],
+        filtro.length > 0 ? filtro : undefined
+      ),
       listarPessoas(),
     ]);
     if (resultadoViagens.ok && resultadoViagens.data) {
@@ -53,10 +56,18 @@ export default function MapaScreen() {
     visitados.map((cca2) => continentePorCca2.get(cca2)).filter(Boolean)
   ).size;
 
+  // Itens da wishlist não coletam latitude/longitude (só país e cidade em
+  // texto livre) — usamos o centro do país como posição aproximada no mapa.
   const marcadores: MarcadorMapa[] = viagens
-    .filter((v): v is Viagem & { latitude: number; longitude: number } => v.latitude !== null && v.longitude !== null)
-    .filter((v): v is typeof v & { status: "realizada" | "planejada" } =>
-      v.status === "realizada" || v.status === "planejada"
+    .map((v) => {
+      const centroPais = paisPorCca2(v.codigoPais);
+      const latitude = v.latitude ?? centroPais?.latitude ?? null;
+      const longitude = v.longitude ?? centroPais?.longitude ?? null;
+      return { ...v, latitude, longitude };
+    })
+    .filter(
+      (v): v is typeof v & { latitude: number; longitude: number } =>
+        v.latitude !== null && v.longitude !== null
     )
     .map((v) => ({
       id: v.id,

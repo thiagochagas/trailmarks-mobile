@@ -1,5 +1,14 @@
 import { useState } from "react";
-import { Modal, Pressable, ScrollView, Text, TextInput, View } from "react-native";
+import {
+  KeyboardAvoidingView,
+  Modal,
+  Platform,
+  Pressable,
+  ScrollView,
+  Text,
+  TextInput,
+  View,
+} from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { ChevronDown } from "lucide-react-native";
 import { TODOS_PAISES, paisPorCca2 } from "@/lib/domain/paises";
@@ -41,39 +50,46 @@ export function BuscaPais({
         animationType="fade"
         onRequestClose={() => setAberto(false)}
       >
-        <Pressable className="flex-1 justify-end bg-black/40" onPress={() => setAberto(false)}>
-          <Pressable
-            className="max-h-[80%] rounded-t-xl bg-card pt-2"
-            style={{ paddingBottom: insets.bottom + 24 }}
-          >
-            <Text className="px-4 pb-2 text-sm font-semibold text-foreground">País</Text>
-            <TextInput
-              autoFocus
-              value={termo}
-              onChangeText={setTermo}
-              placeholder="Digite para buscar (ex.: Portugal)"
-              className="mx-4 mb-2 rounded-md border border-border px-3 py-2 text-sm text-foreground"
-            />
-            <ScrollView keyboardShouldPersistTaps="handled">
-              {filtrados.map((p) => (
-                <Pressable
-                  key={p.cca2}
-                  onPress={() => {
-                    onChange(p);
-                    setTermo("");
-                    setAberto(false);
-                  }}
-                  className="px-4 py-3"
-                >
-                  <Text className="text-sm text-foreground">{p.nomePt}</Text>
-                </Pressable>
-              ))}
-              {filtrados.length === 0 && (
-                <Text className="px-4 py-3 text-sm text-muted-foreground">Nenhum país encontrado.</Text>
-              )}
-            </ScrollView>
+        <KeyboardAvoidingView
+          behavior={Platform.OS === "ios" ? "padding" : "height"}
+          style={{ flex: 1 }}
+        >
+          <Pressable className="flex-1 justify-end bg-black/40" onPress={() => setAberto(false)}>
+            <Pressable
+              className="max-h-[80%] rounded-t-xl bg-card pt-2"
+              style={{ paddingBottom: insets.bottom + 24 }}
+            >
+              <Text className="px-4 pb-2 text-sm font-semibold text-foreground">País</Text>
+              <TextInput
+                autoFocus
+                value={termo}
+                onChangeText={setTermo}
+                placeholder="Digite para buscar (ex.: Portugal)"
+                className="mx-4 mb-2 rounded-md border border-border px-3 py-2 text-sm text-foreground"
+              />
+              <ScrollView keyboardShouldPersistTaps="handled">
+                {filtrados.map((p) => (
+                  <Pressable
+                    key={p.cca2}
+                    onPress={() => {
+                      onChange(p);
+                      setTermo("");
+                      setAberto(false);
+                    }}
+                    className="px-4 py-3"
+                  >
+                    <Text className="text-sm text-foreground">{p.nomePt}</Text>
+                  </Pressable>
+                ))}
+                {filtrados.length === 0 && (
+                  <Text className="px-4 py-3 text-sm text-muted-foreground">
+                    Nenhum país encontrado.
+                  </Text>
+                )}
+              </ScrollView>
+            </Pressable>
           </Pressable>
-        </Pressable>
+        </KeyboardAvoidingView>
       </Modal>
     </View>
   );

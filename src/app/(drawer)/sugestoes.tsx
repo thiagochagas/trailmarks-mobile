@@ -4,7 +4,7 @@ import { useFocusEffect } from "@react-navigation/native";
 import type { Destino, InteresseViagem, Perfil, Viagem } from "@/lib/domain/types";
 import { INTERESSES } from "@/lib/domain/types";
 import { LABEL_INTERESSE, LABEL_CONTINENTE } from "@/lib/domain/enums";
-import { TODOS_PAISES } from "@/lib/domain/paises";
+import { TODOS_PAISES, paisPorCca2 } from "@/lib/domain/paises";
 import { sugerirPorInteresse, cobrirPorContinente } from "@/lib/domain/sugestoes";
 import { obterOuCriarPerfil, atualizarInteresses } from "@/lib/actions/perfil";
 import { listarDestinos } from "@/lib/actions/destinos";
@@ -98,7 +98,22 @@ export default function SugestoesScreen() {
   const visitados = viagens.filter((v) => v.status === "realizada").map((v) => v.codigoPais);
   const sugeridos = sugerirPorInteresse(destinos, perfil.interesses, viagens);
   const cobertura = cobrirPorContinente(TODOS_PAISES, visitados);
-  const wishlist = viagens.filter((v) => v.status === "desejo");
+  const wishlistPorContinente = (() => {
+    const itens = viagens.filter((v) => v.status === "desejo");
+    const grupos = new Map<string, Viagem[]>();
+    for (const v of itens) {
+      const continente = paisPorCca2(v.codigoPais)?.continente ?? "Outro";
+      const lista = grupos.get(continente) ?? [];
+      lista.push(v);
+      grupos.set(continente, lista);
+    }
+    for (const lista of grupos.values()) {
+      lista.sort((a, b) => a.nomePais.localeCompare(b.nomePais, "pt-BR"));
+    }
+    return Array.from(grupos.entries()).sort((a, b) =>
+      (LABEL_CONTINENTE[a[0]] ?? a[0]).localeCompare(LABEL_CONTINENTE[b[0]] ?? b[0], "pt-BR")
+    );
+  })();
 
   return (
     <View className="flex-1 bg-background">
@@ -208,29 +223,38 @@ export default function SugestoesScreen() {
           >
             <Text className="text-sm font-medium text-primary-foreground">+ Adicionar</Text>
           </Pressable>
-          {wishlist.length === 0 ? (
+          {wishlistPorContinente.length === 0 ? (
             <Text className="text-sm text-muted-foreground">Sua wishlist está vazia.</Text>
           ) : (
-            wishlist.map((v) => (
-              <View key={v.id} className="gap-1.5 rounded-lg border border-border bg-card p-3">
-                <Text className="font-medium text-foreground">
-                  {v.cidade ? `${v.cidade}, ` : ""}
-                  {v.nomePais}
+            wishlistPorContinente.map(([continente, itens]) => (
+              <View key={continente} className="gap-2">
+                <Text className="text-sm font-semibold text-muted-foreground">
+                  {LABEL_CONTINENTE[continente] ?? continente}
                 </Text>
-                {v.observacoes && <Text className="text-sm text-muted-foreground">{v.observacoes}</Text>}
-                <View className="flex-row gap-4 pt-1">
-                  <Pressable
-                    onPress={() => {
-                      setItemEditando(v);
-                      setModalVisivel(true);
-                    }}
-                  >
-                    <Text className="text-sm text-primary">Editar</Text>
-                  </Pressable>
-                  <Pressable onPress={() => removerDaWishlist(v.id)}>
-                    <Text className="text-sm text-destructive">Remover</Text>
-                  </Pressable>
-                </View>
+                {itens.map((v) => (
+                  <View key={v.id} className="gap-1.5 rounded-lg border border-border bg-card p-3">
+                    <Text className="font-medium text-foreground">
+                      {v.cidade ? `${v.cidade}, ` : ""}
+                      {v.nomePais}
+                    </Text>
+                    {v.observacoes && (
+                      <Text className="text-sm text-muted-foreground">{v.observacoes}</Text>
+                    )}
+                    <View className="flex-row gap-4 pt-1">
+                      <Pressable
+                        onPress={() => {
+                          setItemEditando(v);
+                          setModalVisivel(true);
+                        }}
+                      >
+                        <Text className="text-sm text-primary">Editar</Text>
+                      </Pressable>
+                      <Pressable onPress={() => removerDaWishlist(v.id)}>
+                        <Text className="text-sm text-destructive">Remover</Text>
+                      </Pressable>
+                    </View>
+                  </View>
+                ))}
               </View>
             ))
           )}
